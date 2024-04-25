@@ -4436,7 +4436,6 @@ GameObject:
   - component: {fileID: 2008318781}
   - component: {fileID: 2008318780}
   - component: {fileID: 2008318779}
-  - component: {fileID: 2008318778}
   - component: {fileID: 2008318777}
   - component: {fileID: 2008318783}
   - component: {fileID: 2008318782}
@@ -4488,19 +4487,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2008318778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008318775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fefafcdac24f0045b1f4c81cdf10851, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sphere: {fileID: 2137178112}
 --- !u!114 &2008318779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4545,7 +4531,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2008318778}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
         m_MethodName: RandomColorSphere
         m_Mode: 1
