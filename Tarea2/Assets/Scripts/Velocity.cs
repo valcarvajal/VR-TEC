@@ -18,12 +18,12 @@ public class Velocity : MonoBehaviour
         // could be rb.velocity = speed * transformforward;
         rb.velocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
-        if (Input.GetKey(KeyCode.M)) {
+        if (Input.GetKey(KeyCode.Y)) {
             // Jump
             rb.velocity = new Vector3(0, 5, 0);
         }
 
-        if (Input.GetKey(KeyCode.N)) {
+        if (Input.GetKey(KeyCode.X)) {
                     // Sprint
                     rb.velocity *= 5.0f;
         }
