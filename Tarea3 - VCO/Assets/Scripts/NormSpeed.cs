@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class NormSpeed : MonoBehaviour
 {
-    public ActionBasedContinuousMoveProvider mimove;
-    // Start is called before the first frame update
+    public ContinuousMoveProviderBase mimove;
     public void cambiarVelocidad()
     {
-        mimove.moveSpeed = 10;
+        Debug.Log("cambiando velocidad" +  mimove.moveSpeed);
+        mimove.moveSpeed = 1f;
+
     }
 }
+

@@ -9,10 +9,8 @@ public class Speed : MonoBehaviour
     public void cambiarVelocidad()
     {
         Debug.Log("cambiando velocidad" +  mimove.moveSpeed);
-        mimove.moveSpeed = 80f;
-         mimove.moveSpeed = 800f;
+        mimove.moveSpeed = 10f;
 
-        
     }
 }
 
